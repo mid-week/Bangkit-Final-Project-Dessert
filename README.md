@@ -7,11 +7,14 @@
 
 ## Introduction
 
-Knowledge about nutritional intake needed every day is important for everyone to know because the fulfillment of nutritional intake each person varies depending on internal factors and external factors. Lack of knowledge about nutritional intake will cause a nutritional problem. The nutritional problem occurs because nutritional intake is not enough or excessive. It will have an impact on one’s productivity.
+Knowledge about nutritional intake needed every day is important for everyone to know because the fulfilment of nutritional intake each person varies depending on internal factors and external factors. Lack of knowledge about nutritional intake will cause a nutritional problem. The nutritional problem occurs because nutritional intake is not enough or excessive. It will have an impact on one’s productivity.
 
 Dessert is food eaten after the main course and style from western cultures. Many Indonesian people now make dessert as a habit. Dessert usually is sweet courses such as fruits, ice cream, cake, etc. Dessert is used to digest the main course and acts as a mouth freshener. Furthermore, dessert also increases one’s mood. But, too many calories eaten will result in various health disorders
 
-Dessert Classification Application can be an alternative solution to solve this problem. This application can be used to identify dessert types before being eaten and display information about calories with recipes or ways of making it. This information can be used to adjust dietary habit or planned diet and used to make the dessert
+One can also argue that most people don't have sufficient knowledge for the ingredient in every dessert they ate. Most people use their intuition and memory to recall the ingredient in the dessert they have eaten on the ones that they will. Hence, there are probabilities that they miss an ingredient on a new particular dessert that they haven't eaten which may result in an allergic reaction.
+
+In order to tackle those problems, our group proposed a Dessert Classification Application which can identify a dessert from a picture which can be taken by the user using their smartphone's camera and reveal the common ingredient for that particular dessert. This can help prevent people from having an allergic reaction by eating that particular dessert. Furthermore, our application can be used to display information about calories with recipes which can help the user adjust their dietary habit. Finally, our application also provides a recipe for the dessert that has been classified, hence the user is able to replicate the dessert by following the recipe on our application.
+
 
 ## Goals
 
