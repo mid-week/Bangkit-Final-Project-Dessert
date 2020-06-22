@@ -47,7 +47,9 @@ CNN Model is one of the main categories to do image classification tasks. CNN ta
 5. Fully Connected Layer 2. Output shape: 1x1x512
 6. Output Layer. Output shape: 1x1x22
 
-(https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20100.png)
+<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20100.png">
+</p>
 
 Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable on 50% to 60%.
 
