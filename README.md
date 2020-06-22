@@ -1,4 +1,4 @@
-## Transfer Learning Approach : Apps For Image Classification on Dessert Problem
+## Transfer Learning Approach: Apps For Image Classification on Dessert Problem
 
 * Farel Firman, @farelyue
 * Mikhael Adiputra, @pitydevil
@@ -7,9 +7,9 @@
 
 ## Introduction
 
-Knowledge about nutritional intake needed every day is important for everyone to know, because fulfillment of nutritional intake each person varies depending on internal factors and external factors. Lack of knowledge about nutritional intake will cause a nutritional problem. Nutritional problem occurs because nutritional intake is not enough or excessive. It will have an impact on one’s productivity.
+Knowledge about nutritional intake needed every day is important for everyone to know because the fulfillment of nutritional intake each person varies depending on internal factors and external factors. Lack of knowledge about nutritional intake will cause a nutritional problem. The nutritional problem occurs because nutritional intake is not enough or excessive. It will have an impact on one’s productivity.
 
-Dessert is food eaten after the main course and style from western cultures. Many Indonesian people now make dessert as a habit. Dessert usually is sweet courses such as fruits, ice cream, cake, etc. Dessert is used to digest the main course and acts as mouth freshener. Furthermore, dessert also increases one’s mood. But, too many calories eaten will result in various health disorders
+Dessert is food eaten after the main course and style from western cultures. Many Indonesian people now make dessert as a habit. Dessert usually is sweet courses such as fruits, ice cream, cake, etc. Dessert is used to digest the main course and acts as a mouth freshener. Furthermore, dessert also increases one’s mood. But, too many calories eaten will result in various health disorders
 
 Dessert Classification Application can be an alternative solution to solve this problem. This application can be used to identify dessert types before being eaten and display information about calories with recipes or ways of making it. This information can be used to adjust dietary habit or planned diet and used to make the dessert
 
@@ -19,7 +19,7 @@ To deploy an application that can identify the type of dessert and display infor
 
 ## Methodology
 
-The data used is image data [Food-101](http://www.kaggle.com/kmader/food41) that comes from the Kaggle platform. This data consists of 101 types of food. Each food consists of 1000 images. We only used 22 types of food from the dataset, which is dessert. This approach used the Convolutional Neural Network (CNN) using pre-trained model from InceptionV3. 
+The data used is image data [Food-101](http://www.kaggle.com/kmader/food41) that comes from the Kaggle platform. This data consists of 101 types of food. Each food consists of 1000 images. We only used 22 types of food from the dataset, which is dessert. This approach used the Convolutional Neural Network (CNN) using a pre-trained model from InceptionV3. 
 
 The stages in image classification are:
 
@@ -56,7 +56,7 @@ CNN Model is one of the main categories to do image classification tasks. CNN ta
 	<img width = "250" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20300.png">
 </p>
 
-Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable on 50% to 60%.
+Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable at 50% to 60%.
 
 ### Improved CNN Model
 [Improved CNN Model](https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Transfer%20Learning%20with%20Google%20Colab%20(old%20data%20split).ipynb)
@@ -66,7 +66,7 @@ The improved performance model used the Transfer Learning approach. Transfer Lea
 1. Exclude top layer for each pre-trained model such as InceptionV3, VGG-16, and Resnet-50
 2. Global Average Pooling 2D layer followed by Flatten layer used to convert featured map into a single column vector as an input to Fully Connected Layer
 3. Dense Layer with 512 filters each and used ReLU activation function. Then followed by Dropout layer with 50% parameter
-4. Output layer consists of 22 classes and used Softmax activation function
+4. The Output layer consists of 22 classes and used the Softmax activation function
 
 <p align = "center">
 	<img height = "200" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/compare%20architecture.png">
@@ -97,5 +97,5 @@ As for the hyperparameter final model used are:
 	* Zoom Range: 0.2
 	* Horizontal Flip: True
 
-Based on the result from the final model we get training accuracy is 72.87% and validation accuracy is 72.52%. The results obtained are good considering the model from scratch only scored 55% accuracy and now it improved to about 17%. This model also does not have overfitting problem, as there is not too much difference between the accuracy of training data and validation data.
+Based on the result from the final model we get training accuracy is 72.87% and validation accuracy is 72.52%. The results obtained are good considering the model from scratch only scored 55% accuracy and now it improved to about 17%. This model also does not have an overfitting problem, as there is not too much difference between the accuracy of training data and validation data.
 
