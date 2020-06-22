@@ -1,9 +1,9 @@
 ## Transfer Learning Approach : Apps For Image Classification on Dessert Problem
 
-Farel Firman, @farelyue
-Mikhael Adiputra, @pitydevil
-Theresia Veronika Rampisela, @theresiavr
-Tobias Ivandito Margogo Silalahi, @tobiassilalahi
+* Farel Firman, @farelyue
+* Mikhael Adiputra, @pitydevil
+* Theresia Veronika Rampisela, @theresiavr
+* Tobias Ivandito Margogo Silalahi, @tobiassilalahi
 
 ## Introduction
 
@@ -47,12 +47,7 @@ CNN Model is one of the main categories to do image classification tasks. CNN ta
 5. Fully Connected Layer 2. Output shape: 1x1x512
 6. Output Layer. Output shape: 1x1x22
 
-![Baseline Architecture]
-(https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Images/baseline%20architecture.png)
-![Baseline 100 Epoch]
-(https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Images/baseline%20100.png)
-![Baseline 100 Epoch]
-(https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Images/Images/baseline%20300.png)
+(https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20100.png)
 
 Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable on 50% to 60%.
 
