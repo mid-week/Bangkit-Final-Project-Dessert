@@ -47,8 +47,13 @@ CNN Model is one of the main categories to do image classification tasks. CNN ta
 5. Fully Connected Layer 2. Output shape: 1x1x512
 6. Output Layer. Output shape: 1x1x22
 
-<p align="center">
-  <img width="460" height="300" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20100.png">
+<p align = "center">
+	<img height = "200" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20architecture.png">
+</p>
+
+<p align = "center">
+	<img width = "250" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20100.png">
+	<img width = "250" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/baseline%20300.png">
 </p>
 
 Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable on 50% to 60%.
@@ -63,10 +68,13 @@ The improved performance model used the Transfer Learning approach. Transfer Lea
 3. Dense Layer with 512 filters each and used ReLU activation function. Then followed by Dropout layer with 50% parameter
 4. Output layer consists of 22 classes and used Softmax activation function
 
-![Pre-trained Model Architecture]
-(https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Images/compare%20architecture.png)
-![Result of Pre-trained Model]
-(https://github.com/pitydevil/Bangkit-Final-Project-Dessert/blob/master/Images/compare%20result.png)
+<p align = "center">
+	<img height = "200" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/compare%20architecture.png">
+</p>
+
+<p align = "center">
+	<img height = "150" src="https://raw.githubusercontent.com/pitydevil/Bangkit-Final-Project-Dessert/master/Images/compare%20result.png">
+</p>
 
 Based on the result of comparing all three pre-trained models, we found that InceptionV3 has a much better performance model compared to the others. For epoch = 5 validation accuracy is 55.09% and for epoch = 10 validation accuracy is 58.84%. Hence, InceptionV3 is chosen as the pre-trained model
 
