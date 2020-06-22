@@ -18,18 +18,18 @@ In order to tackle those problems, our group proposed a Dessert Classification A
 
 ## Goals
 
-To deploy an application that can identify the type of dessert and display information about food calories and how to make the dessert from food that is being eaten
+Our goal is to create an application that can identify the type of dessert and display information regarding the number of calories contain in a dessert and, it's recipes using an image.
 
 ## Methodology
 
-The data used is image data [Food-101](http://www.kaggle.com/kmader/food41) that comes from the Kaggle platform. This data consists of 101 types of food. Each food consists of 1000 images. We only used 22 types of food from the dataset, which is dessert. This approach used the Convolutional Neural Network (CNN) using a pre-trained model from InceptionV3. 
+The data used is image data [Food-101](http://www.kaggle.com/kmader/food41) that comes from the Kaggle platform. This data consists of 101 types of food. Each food consists of 1000 images. From that dataset, we only choose 22 types of food as a subset, which are only dessert classes. This approach used the Convolutional Neural Network (CNN) using a pre-trained model from InceptionV3. 
 
 The stages in image classification are:
 
-1. Splitting data into training and validation data with ratios of 80% and 20%
-2. Train model CNN from scratch with predetermined architecture
-3. Determine best pre-trained model by comparing performance from all three pre-trained models that are InceptionV3, VGG-16, and Resnet-50
-4. Tuning hyperparameter and used data augmentation to improve model performance
+1. Splitting data into training and validation data with a ratio of 80% and 20%.
+2. Train model CNN from scratch with predetermined architecture.
+3. Determine best pre-trained model by comparing performance from all three pre-trained models that are InceptionV3, VGG-16, and Resnet-50.
+4. Tuning hyperparameter and used data augmentation to improve model performance.
 
 
 ## Results
