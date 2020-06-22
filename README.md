@@ -1,11 +1,9 @@
-# Transfer Learning Approach : Apps For Image Classification on Dessert Problem
+## Transfer Learning Approach : Apps For Image Classification on Dessert Problem
 
-<p align = "center">
-	<p>Farel Firman, @farelyue</p>
-	<p>Mikhael Adiputra, @pitydevil</p>
-	<p>Theresia Veronika Rampisela, @theresiavr</p>
-	<p>Tobias Ivandito Margogo Silalahi, @tobiassilalahi</p>
-</p>
+Farel Firman, @farelyue
+Mikhael Adiputra, @pitydevil
+Theresia Veronika Rampisela, @theresiavr
+Tobias Ivandito Margogo Silalahi, @tobiassilalahi
 
 ## Introduction
 
@@ -49,9 +47,9 @@ CNN Model is one of the main categories to do image classification tasks. CNN ta
 5. Fully Connected Layer 2. Output shape: 1x1x512
 6. Output Layer. Output shape: 1x1x22
 
-(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline architecture.png)
-(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline 100.png)
-(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline 300.png)
+(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline%20architecture.png)
+(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline%20100.png)
+(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/baseline%20300.png)
 
 Added epoch from 100 to 300 improve accuracy model performance from the baseline model is 51.80% to 59.80%. This improvement is fairly small and tends to be stable on 50% to 60%.
 
@@ -65,8 +63,8 @@ The improved performance model used the Transfer Learning approach. Transfer Lea
 3. Dense Layer with 512 filters each and used ReLU activation function. Then followed by Dropout layer with 50% parameter
 4. Output layer consists of 22 classes and used Softmax activation function
 
-(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/compare architecture.png)
-(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/compare result.png)
+(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/compare%20architecture.png)
+(https://github.com/https://github.com/pitydevil/Bangkit-Final-Project-Dessert/Images/compare%20result.png)
 
 Based on the result of comparing all three pre-trained models, we found that InceptionV3 has a much better performance model compared to the others. For epoch = 5 validation accuracy is 55.09% and for epoch = 10 validation accuracy is 58.84%. Hence, InceptionV3 is chosen as the pre-trained model
 
